@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Helvetica;
+  overflow-x: hidden;
 }
 
 h2 {
@@ -253,4 +254,112 @@ header .content li a {
 }
 #section4 .row .content .links a {
   color: #2997ff;
+}
+
+#section5 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 667px;
+  margin-top: 30px;
+}
+#section5 .affiches {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  height: 667px;
+}
+#section5 .affiches .affiche {
+  height: 100%;
+}
+#section5 .affiches .affiche.bg1 {
+  width: 315px;
+  background-image: url("img/sect5-left.jpg");
+  background-position: right;
+  background-size: cover;
+}
+#section5 .affiches .affiche.bg2 {
+  display: flex;
+  align-items: end;
+  width: 1250px;
+  background-image: url("img/sect5-center.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#section5 .affiches .affiche.bg2 .content {
+  width: auto;
+  height: auto;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+#section5 .affiches .affiche.bg2 .content .btn {
+  width: 128px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 22px;
+}
+#section5 .affiches .affiche.bg2 .content .btn p {
+  color: #1d1d1f;
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+#section5 .affiches .affiche.bg2 .content p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+#section5 .affiches .affiche.bg2 .content p strong {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+#section5 .affiches .affiche.bg3 {
+  width: 315px;
+  background-image: url("img/sect5-right.jpg");
+  background-position: left;
+  background-size: cover;
+}
+#section5 .dots {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#section5 .dots .dot {
+  width: 8px;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.26);
+  border-radius: 50%;
+  margin: 20px 0;
+  cursor: pointer;
+}
+#section5 .dots .dot.active {
+  background: rgba(0, 0, 0, 0.56);
+}
+
+#up-footer {
+  margin-bottom: 20px;
+}
+#up-footer .wrapper {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px #d2d2d7 solid;
+}
+#up-footer .wrapper p {
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 20px;
+}
+#up-footer .wrapper p.margin {
+  margin: 40px;
+}
+#up-footer .wrapper p .under-line {
+  text-decoration: underline;
+  color: #424245;
 }/*# sourceMappingURL=style.css.map */
