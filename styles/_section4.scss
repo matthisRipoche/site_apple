@@ -1,0 +1,118 @@
+#section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding: 20px;
+
+    height: 1776px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        height: calc(33% - 40px);
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            padding-top: 40px;
+            gap: 0;
+
+            width: calc(50% - 10px);
+            height: 100%;
+
+            &.bg1 {
+                background-image: url("img/section4-bg1.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+            &.bg2 {
+                background-image: url("img/section4-bg2.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+            &.bg3 {
+                background-image: url("img/section4-bg3.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+            &.bg4 {
+                background-image: url("img/section4-bg4.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+            &.bg5 {
+                background-image: url("img/section4-bg5.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+            &.bg6 {
+                background-image: url("img/section4-bg6.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+
+            h2 {
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 44px;
+                text-align: center;
+
+                margin: 0;
+                padding: 0;
+
+                max-width: 350px;
+
+                &.black {
+                    color: $dark;
+                }
+                &.white {
+                    color: $white;
+                }
+            }
+
+            img {
+                width: 430px;
+                height: 32px;
+
+                margin-bottom: 10px;
+            }
+
+            .sous-titre {
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 26px;
+
+                margin: 0;
+                padding: 0;
+
+                &.black {
+                    color: $dark;
+                }
+                &.white {
+                    color: $white;
+                }
+            }
+
+            .links {
+                display: flex;
+                justify-content: center;
+                gap: 60px;
+
+                margin-top: 10px;
+
+                p {
+                    padding: 0;
+                    margin: 0;
+                }
+
+                a {
+                    color: $blue;
+                }
+            }
+        }
+    }
+}
