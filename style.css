@@ -362,4 +362,32 @@ header .content li a {
 #up-footer .wrapper p .under-line {
   text-decoration: underline;
   color: #424245;
+}
+
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  margin: 5px 0;
+}
+footer ul li.titlelinks {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+}
+footer ul li a {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #424245;
+}
+footer .wrapper {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .links {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
